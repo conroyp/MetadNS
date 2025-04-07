@@ -1,6 +1,6 @@
 # Introducing MetadNS
 
-_When Bad Ideas meet Good APIs_
+_When Good APIs Meet Bad Ideas_
 
 I've always believed the best way to really understand a technology is to push it in stupid, impractical directions and see what breaks. Inspired by Corey Quinn's claim that [Amazon Route 53 is actually a database](https://www.lastweekinaws.com/blog/route-53-amazons-premier-database/), I wondered: what's the opposite of that? If DNS can be used as a database, what's the most absurd way to implement a DNS server?
 
@@ -188,4 +188,4 @@ This project is definitely not production-grade (please don't...), but it does s
 * The importance of understanding API consistency models (Search vs List).
 * That "bad ideas" are often the best teaching tools.
 
-For a bit more on the background of this project, see the blog post [Introducing MetadNS: When Bad Ideas Meet Good APIs](https://www.conroyp.com/articles/introducing-metadns-stripe-dns-metadata-bad-ideas-meet-good-apis).
+For a bit more on the background of this project, see the blog post [Introducing MetadNS: When Good APIs Meet Bad Ideas]([https://www.conroyp.com/articles/introducing-metadns-stripe-dns-metadata-bad-ideas-meet-good-apis](https://www.conroyp.com/articles/stripe-dns-provider-metadata-bad-ideas-meet-good-apis)).
