@@ -1,0 +1,28 @@
+{
+  "name": "stripe-dns",
+  "version": "1.0.0",
+  "description": "The world's most expensive DNS server built on Stripe metadata",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "update": "node dns-update.js",
+    "query": "node dns-query.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stripe",
+    "dns",
+    "metadata",
+    "joke"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dns2": "^2.1.0",
+    "dotenv": "^16.4.7",
+    "stripe": "^17.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
